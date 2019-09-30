@@ -1,0 +1,65 @@
+.plan {
+  overflow: hidden;
+  padding: 14px 0px 28px;
+}
+.plan__cont {
+  justify-content: center;
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.plan__cont__image {
+  width: 1024px;
+  height: 445px;
+  object-fit: cover;
+}
+.plan__cont__content {
+  padding: 0px 16px;
+}
+.plan__cont__content article {
+  color: #7f7f7f;
+  font-weight: bold;
+}
+.plan__cont__content article h1 {
+  color: #333333;
+  font-size: 1.5em;
+  margin: 0px 0px 16.8px;
+}
+.plan__cont__content article p {
+  color: #333333;
+  font-size: 0.9rem;
+  margin: 0px 0px 24px;
+  font-weight: 500;
+}
+.plan__cont__content article h4 {
+  color: #333333;
+  font-size: 0.9rem;
+  margin: 0px 0px 20px;
+}
+.plan__cont__content__inner p {
+  font-size: 0.7rem;
+}
+.plan__cont__content__inner a {
+  color: #0099e2;
+  font-size: 0.9 ;
+}
+@media (max-width: 1201px) {
+  .plan img {
+    text-align: center;
+    max-width: 90%;
+  }
+}
+@media (max-width: 1000px) {
+  .plan article {
+    text-align: center;
+  }
+  .plan__cont__content__inner article {
+    text-align: left;
+  }
+  .plan__cont__image {
+    height: auto;
+  }
+  .plan__cont__image img {
+    max-width: 100%;
+  }
+}

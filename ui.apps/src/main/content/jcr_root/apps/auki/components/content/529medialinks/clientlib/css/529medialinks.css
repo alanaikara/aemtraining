@@ -1,0 +1,26 @@
+.media {
+  position: fixed;
+}
+.media ul {
+  background-color: white;
+  padding: 0;
+  position: fixed;
+  bottom: 162px;
+  left: 15px;
+  margin: 0;
+}
+.media li {
+  list-style-type: none;
+}
+@media (max-width: 1088px) {
+  .media ul {
+    bottom: 0px;
+    left: 0;
+    position: fixed;
+    display: flex;
+  }
+  .media ul img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}

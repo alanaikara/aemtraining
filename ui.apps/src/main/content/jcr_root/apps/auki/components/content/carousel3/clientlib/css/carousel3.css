@@ -1,0 +1,85 @@
+.slider .carousel-indicators {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+.slider .carousel-indicators li {
+  text-indent: 0;
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+}
+.slider .carousel-indicators li a {
+  color: black;
+  font-size: 1.33rem;
+  text-decoration: none;
+}
+.slider .carousel-indicators li a:hover {
+  border-bottom: 4px solid #b42573;
+}
+.slider .carousel-indicators .active a {
+  font-weight: bold;
+  border-bottom: 4px solid #b42573;
+}
+.slider .carousel-inner {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+.slider .carousel-inner .carousel-item.active {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.slider .carousel-inner .carousel-item.active img {
+  size: 100%;
+}
+.slider .carousel-inner .carousel-item.active article {
+  max-width: 690px;
+}
+.slider .carousel-inner .carousel-item.active article h1 {
+  font-size: 2rem;
+}
+.slider .carousel-inner .carousel-item.active article p {
+  font-size: 1.5rem;
+}
+.slider .carousel-inner .carousel-item.active article h3 {
+  font-size: 1.6rem;
+}
+.slider .carousel-inner .carousel-item.active article a {
+  color: #0099E2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.slider .mobile ul {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.slider .mobile ul li {
+  text-align: center;
+  padding-top: 40px;
+  list-style: none;
+}
+.slider .mobile ul li h1 {
+  text-align: center !important;
+  font-size: 1.7rem;
+}
+.slider .mobile ul li img {
+  width: 80%;
+}
+.slider .mobile ul li h3 {
+  font-size: 1.2rem;
+}
+.slider .mobile ul li a {
+  color: #0099E2;
+  font-size: 14px;
+  font-weight: bold;
+}
+.slider .mobile ul img {
+  width: 80%;
+}
